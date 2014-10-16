@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 		<!--Javascript-->
-		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="app.js"></script>
 
 	</head>
@@ -21,13 +21,100 @@
 	<body>
 
 		<!--Home Screen-->
-		<h1 id="heading">How Much Do You Know<br><br>About the STATES in this Union?</h1>
-		<img id="usamap" src="http://i.imgur.com/wL83bQY.png">
-		<p id="mainscript">Test Your Knowledge<br><br>Take the Quiz!</p>
-		<form>
-			<input type="submit" id="start" value="Start Quiz">
-		</form>
-		
-	</body>
+		<div id="home">
+			<h1 id="heading">How Well Do You Know Your STATES?</h1>
+			<img id="usamap" src="http://i.imgur.com/wL83bQY.png">
+			<p id="mainscript">Test Your Knowledge<br><br>Take the Quiz!</p>
+			<form>
+				<input type="submit" id="start" value="Start Quiz">
+			</form>
+		</div>
 
+		<!--Question 1-->
+		<div id="questionone">
+			<h1 class="questionheader">Question #1: Boasting 24 optical telescopes<br>and 2 radio telescopes, this State hosts<br>the largest, most diverse gathering<br>of astronomical instruments in the world.<br>Which State is it?</h1>
+			<form class="answeroptions">	
+				<input type="radio" value="Oregon">Oregon<br>
+				<input type="radio" value="Colorado">Colorado<br>
+				<input type="radio" value="Arizona">Arizona<br>
+				<input type="radio" value="Tennessee">Tennessee<br>
+				<input type="radio" value="Georgia">Georgia<br><br>
+				<input type="submit" class="submitanswer" value="Submit Answer">
+			</form>
+		</div>
+
+		<div id="oneresult">
+			<h1 class="correct">CORRECT!</h1>
+			<h1 class="incorrect">Incorrect...but here's the answer:</h1>
+			<img class="answerimage" src="http://i.imgur.com/LbAvS5o.png">
+		</div>
+
+		<!--Question 2-->
+		<div id="questiontwo">
+			<h1 class="questionheader">Question #2: Of the original thirteen colonies,<br>this STATE was the last to officially reach statehood.<br>Which State was it?</h1>
+			<form class="answeroptions">
+				<input type="radio" value="Rhode Island">Rhode Island<br>
+				<input type="radio" value="South Carolina">South Carolina<br>
+				<input type="radio" value="Virginia">Virginia<br>
+				<input type="radio" value="New York">New York<br>
+				<input type="radio" value="Pennsylvania">Pennsylvania<br><br>
+				<input type="submit" class="submitanswer" value="Submit Answer">
+			</form>
+		</div>
+
+		<div id="tworesult">
+			<h1 class="correct">CORRECT!</h1>
+			<h1 class="incorrect">Incorrect...but here's the answer:</h1>
+			<img class="answerimage" src="">
+		</div>
+
+
+		<!--Question 3-->
+		<div id="questionthree">
+			<h1 class="questionheader">Question #3: This STATE contains the only rainforest<br>within the continental United States.<br>Which one is it?</h1>
+			<form class="answeroptions">
+				<input type="radio" value="California">California<br>
+				<input type="radio" value="Florida">Florida<br>
+				<input type="radio" value="Louisiana">Louisiana<br>
+				<input type="radio" value="Washington">Washington<br>
+				<input type="radio" value="Nevada">Nevada<br><br>
+				<input type="submit" class="submitanswer" value="Submit Answer">
+			</form>
+		</div>
+
+		<div id="threeresult">
+			<h1 class="correct">CORRECT!</h1>
+			<h1 class="incorrect">Incorrect...but here's the answer:</h1>
+			<img class="answerimage" src="http://i.imgur.com/sJ2amXY.png">
+		</div>
+
+		<!--Question 4-->
+		<div id="questionfour">
+			<h1 class="questionheader">Question #4: This STATE was the birthplace of the 11th<br>President of the Unites States, James Polk.<br>Where was he born?</h1>
+			<form class="answeroptions">
+				<input type="radio" value="Virginia">Virginia<br>
+				<input type="radio" value="Texas">Texas<br>
+				<input type="radio" value="North Carolina">North Carolina<br>
+				<input type="radio" value="Montana">Montana<br>
+				<input type="radio" value="Ohio">Ohio<br><br>
+				<input type="submit" class="submitanswer" value="Submit Answer">
+			</form>
+		</div>
+
+		<div id="fourresult">
+			<h1 class="correct">CORRECT!</h1>
+			<h1 class="incorrect">Incorrect...but here's the answer:</h1>
+			<img class="answerimage" src="http://i.imgur.com/0FF1Ern.png">
+		</div>
+
+		<!--Results Page-->
+		<div id="results">
+			<img id="usamap" src="http://i.imgur.com/wL83bQY.png">
+			<p id="grade">Your Grade:<br><br></p>
+			<form>
+				<input type="submit" id="start" value="Start Quiz">
+			</form>
+		</div>
+
+	</body>
 </html>
