@@ -12,9 +12,4 @@ $(document).ready(function() {
 	$('#fourresult').hide();
 	$('#results').hide();
 
-	/*--Start Quiz--*/
-	
-
-
-
 });
